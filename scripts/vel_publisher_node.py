@@ -21,7 +21,7 @@ if __name__ == '__main__':
 		# set the linear velocity to 1 m/s
 		vel_cmd.linear.x = 1
 		# set the angular velocity to 1 rad/s
-		vel_cmd.angular.z = 1
+		vel_cmd.angular.z = -1
 		# publish the command to the sim
 		cmd_pub.publish(vel_cmd)
 		# wait for 0.1 of second until the next loop
